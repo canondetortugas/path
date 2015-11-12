@@ -1,0 +1,12 @@
+What you did well:
+- Your report is very thorough.
+- Nice benchmarking. We appreciate the plots and that rather than just plotting total time as a function of input size, you also plotted time spent on different code sections via hotspot analysis. This was quite illuminating.
+- Good job analyzing different ways of distributing information across processes without shared memory. Expected speedup analysis was a nice inclusion.
+- Nice performance plots for your MPI implementation and discussion / future directions.
+
+Suggestions for improvement:
+- The math notation in your report is a little sloppy. It would have been nice if you spent more time introducing the notion of a tropical matrix multiplication for unfamiliar readers.
+- A simple direction to consider would be to avoid copying the entire matrix onto each processor using a different blocking scheme.
+
+Misc comments:
+- LaTeX is where it’s at.
