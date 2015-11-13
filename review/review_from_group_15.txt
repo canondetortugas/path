@@ -1,0 +1,7 @@
+Review from group 15:
+Things you are doing well:
+- You seem to have two MPI implementations going. This is more advanced than we are since we don't have a working MPI implementation yet.
+- You are working on tuning and vectorization, which is good.
+Things you can improve on:
+- Some strong or weak scaling studies would be very informative.
+- We found that implementing blocking on the code in the style of matmul improves performance by an order of magnitude. That is perhaps something you can add along with your tuning.
